@@ -1,0 +1,12 @@
+
+Log created on 2025-06-16 10:44:32
+
+[**] [1:1000001:1] [Snort] ICMP Ping Detected [**]
+[Classification: Misc activity] [Priority: 3] 
+06/16-15:30:12.123456 192.168.92.20 -> 192.168.92.11
+ICMP TTL:64 TOS:0x0 ID:39456 IpLen:20 DgmLen:84
+
+[**] [1:1000002:1] [Snort] SSH Connection Attempt [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+06/16-15:31:45.654321 192.168.92.20:45782 -> 192.168.92.11:22
+TCP TTL:64 TOS:0x0 ID:12345 IpLen:20 DgmLen:60 DF
